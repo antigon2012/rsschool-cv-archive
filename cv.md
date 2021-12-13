@@ -46,9 +46,9 @@ searchHotels.addEventListener("click", function() {
 
 ### Project ###
 
-Landing Sedona, training project at school HTMLacademy [Github](https://github.com/antigon2012)
+Landing Sedona, training project at school HTMLacademy [Github](https://antigon2012.github.io/326415-sedona-25/)
 
-CV for RSSchool [Github](https://github.com/antigon2012/rsschool-cv)
+CV for RSSchool [Github](https://antigon2012.github.io/rsschool-cv/cv)
 
 ----
 
