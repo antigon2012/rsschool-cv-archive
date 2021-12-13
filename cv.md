@@ -1,5 +1,7 @@
 ## Dzianis Salahub ##
 
+![photo](\rsschool-cv\img)
+
 ### Contacts: ###
 
 + __E-mail:__ antigon2012@gmail.com  
