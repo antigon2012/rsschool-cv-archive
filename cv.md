@@ -1,4 +1,5 @@
 ## Dzianis Salahub ##
+
 ----
 
 ![photo](img\photo.jpg)
@@ -31,7 +32,7 @@ I want to improve my JavaScript skills and get a job as a frontend developer nex
 
 ### Code examples: ### 
 
-```JavaScript
+```js
 var searchHotels = document.querySelector(".form-search");
 var modalSearch = document.querySelector(".form-container");
 
