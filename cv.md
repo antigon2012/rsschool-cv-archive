@@ -1,6 +1,7 @@
 ## Dzianis Salahub ##
+----
 
-![photo](\rsschool-cv\img)
+![photo](img\photo.jpg)
 
 ### Contacts: ###
 
