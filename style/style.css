@@ -1,1 +1,200 @@
-.
+/* inter-regular - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/inter-v7-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v7-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-500 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/inter-v7-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v7-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-600 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/inter-v7-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v7-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/inter-v7-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v7-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  body {
+      font-family: 'Inter';
+      font-size: 10px;
+      font-weight: 500;
+      line-height: 15px;
+      color: #292929;
+      background-color: #ffffff;
+  }
+
+h1 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+a {
+    text-decoration: none;
+    color: #7b7979;
+}
+
+.all-wrap {
+    width: 595px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.25);
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+}
+
+.about-me {
+    width: 349px;
+}
+
+.main {
+    display: flex;
+}
+
+.avatar {
+    height: 190px;
+    margin-right: 32px;
+    box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    min-width: 190px;
+    margin-right: 32px;
+    box-shadow: 2px -7px 14px rgba(0, 0, 0, 0.25);
+    padding-top: 24px;
+}
+
+.column-left section {
+    margin-bottom: 32px;
+}
+
+.column-left:last-child section {
+    margin-bottom: 0px;
+}
+
+.category-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.category-title::after {
+    content: "";
+    display: block;
+    width: 32px;
+    padding-top: 6px;
+    border-bottom: 2px solid #292929;
+}
+
+.column-left .category-title::after {
+    margin: 0 auto;
+}
+
+.column-left .category-title {
+    text-align: center;
+}
+
+.column-left ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 115px;
+    font-size: 10px;
+    line-height: 15px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.column-left li {
+    list-style-type: none;  
+    margin-bottom: 4px;  
+}
+
+.contacts-list li {
+    margin-bottom: 8px;
+}
+
+.contacts-list li::last-child {
+    margin-bottom: 0;
+}
+
+
+.contacts-list span {
+    font-weight: 700;
+}
+
+.column-right ul {
+    padding: 0;
+    width: 357px;
+}
+
+.column-right li {
+    list-style-type: none;
+}
+
+.column-right li:first-child {
+    margin-bottom: 10px;
+}
+
+.column-right .category-title:first-child {
+    margin-top: 40px;
+}
+
+.code-example {
+    width: 357px;
+
+}
+
+.footer {
+    width: 357px;
+    margin-left: auto;
+    display: flex;
+    justify-content: end;
+    float: right;
+    position: relative;
+    bottom: 18px;
+}
+
+.github-link, .rs-link {
+    height: 10px;
+    margin-right: 11px;
+}
+
+.github-link {
+    background-color: #292929;
+    border-radius: 50%;
+}
+
+.footer p {
+    display: inline;
+    font-weight: 500;
+    margin: 0;
+    margin-right: 10px;
+}
