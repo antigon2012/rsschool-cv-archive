@@ -18,7 +18,7 @@
                     I am a novice web developer. The main goal is to start a career as a developer. I want to improve my JavaScript skills and get a job as a frontend developer next year.
                 </p>
             </section>
-            <img class="avatar" src="img\photo.jpg" alt="Avatar">
+            <img class="avatar" src="img/photo.jpg" alt="Avatar">
         </header>
         <main class="main">
             <div class="column-left">
@@ -54,32 +54,34 @@
                     <h2 class="category-title">Education</h2>
                     <ul class="education-list">
                         <li>HTMLacademy  2019 Completed the <a href="https://htmlacademy.ru">HTMLacademy</a> course on layout, received a <a href="https://assets.htmlacademy.ru/certificates/intensive/109/326415.pdf?1561831133">certificate</a> of successful completion.</li>
-                        <li>Version Control with Git from<a href="https://learn.epam.com/detailsPage?id=601f195a-d408-4439-a16d-0630ed2a412e">EPAM</a></li>
+                        <li>Version Control with Git from <a href="https://learn.epam.com/detailsPage?id=601f195a-d408-4439-a16d-0630ed2a412e">EPAM</a></li>
                     </ul>
                 </section>
                 <section>
                     <h2 class="category-title">Project</h2>
-                    <p>Landing Sedona, training project at school HTMLacademy <a href="https://antigon2012.github.io/326415-sedona-25/">Github</a></p>
-                    <p>CV for RSSchool <a href="https://antigon2012.github.io/rsschool-cv/cv">Github</a></p>
+                    <p>Landing <a href="https://antigon2012.github.io/326415-sedona-25/">Sedona</a>, training project at school HTMLacademy</p>
+                    <p><a href="https://antigon2012.github.io/rsschool-cv/cv">CV</a> for RSSchool</p>
                 </section>
                 <section>
                     <h2 class="category-title">Code examples</h2>
-                    <pre>
-                        var searchHotels = document.querySelector(".form-search");
-                        var modalSearch = document.querySelector(".form-container");
+                    <div class="code-example">  
+                        <code>
+                            var searchHotels = document.querySelector(".form-search");
+                            var modalSearch = document.querySelector(".form-container");
                         
-                        searchHotels.addEventListener("click", function() {
-                          modalSearch.classList.toggle("form-hide");
-                          modalSearch.classList.add("form-animation");
-                        });
-                    </pre>
+                            searchHotels.addEventListener("click", function() {
+                                modalSearch.classList.toggle("form-hide");
+                                modalSearch.classList.add("form-animation");
+                            });
+                        </code>
+                    </div>
                 </section> 
             </div>                      
         </main>
-        <footer>
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
+        <footer class="footer">
+            <a href="https://github.com/antigon2012" ><img src="img/GitHub-32px.png" alt="Github" class="github-link"></a>
+            <a href="https://rs.school/js/" ><img src="/img/rs_school_js.svg" alt="RSschool" class="rs-link"></a>
+            <p>2022 &copy;</p>
         </footer>
     </div>
 </body>
