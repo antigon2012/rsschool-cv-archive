@@ -9,60 +9,61 @@
     <link rel="stylesheet" href="/style/normalize.css">
 </head>
 <body>
-    <div class="allWrap">
+    <div class="all-wrap">
         <header>
-            <section>
+            <section class="about-me">
                 <h1>Dzianis Salahub</h1>        
-                <h2>Аbout me:</h2>
+                <h2 class="category-title">Аbout me:</h2>
                 <p>
                     I am a novice web developer. The main goal is to start a career as a developer. I want to improve my JavaScript skills and get a job as a frontend developer next year.
                 </p>
             </section>
             <img class="avatar" src="img\photo.jpg" alt="Avatar">
         </header>
-        <main>
-            <div class="columnLeft">
+        <main class="main">
+            <div class="column-left">
                 <section>
-                    <h2>Contacts</h2>
-                    <ul>
-                        <li>Location Hrodna, Belarus</li>
-                        <li>E-mail antigon2012@gmail.com</li>
-                        <li>Discord antigon2012#8911</li>
-                        <li>Github antigon2012</li>
+                    <h2 class="category-title">Contacts</h2>
+                    <ul class="contacts-list">
+                        <li><span>Location</span><br> Hrodna, Belarus</li>
+                        <li><span>E-mail</span> antigon2012@gmail.com</li>
+                        <li><span>Discord</span> antigon2012#8911</li>
+                        <li><span>Github</span><br> antigon2012</li>
                     </ul>
                 </section>    
                 <section>
-                    <h2>Language</h2>
-                    <ul>
+                    <h2 class="category-title">Language</h2>
+                    <ul class="language-list">
                         <li>Belarusian</li>
                         <li>Russian</li>
                         <li>English A1</li>
                     </ul>
                 </section>        
                 <section>
-                    <h2>Skills</h2>
-                    <ul>
+                    <h2 class="category-title">Skills</h2>
+                    <ul class="skills-list">
                         <li>HTML5/CSS3</li>
                         <li>VScode</li>
                         <li>Git</li>
                         <li>Figma</li>
                     </ul>
                 </section>
-            </div>           
+            </div>  
+            <div class="column-right">         
                 <section>
-                    <h2>Education</h2>
-                    <ul>
+                    <h2 class="category-title">Education</h2>
+                    <ul class="education-list">
                         <li>HTMLacademy  2019 Completed the <a href="https://htmlacademy.ru">HTMLacademy</a> course on layout, received a <a href="https://assets.htmlacademy.ru/certificates/intensive/109/326415.pdf?1561831133">certificate</a> of successful completion.</li>
                         <li>Version Control with Git from<a href="https://learn.epam.com/detailsPage?id=601f195a-d408-4439-a16d-0630ed2a412e">EPAM</a></li>
                     </ul>
                 </section>
                 <section>
-                    <h2>Project</h2>
+                    <h2 class="category-title">Project</h2>
                     <p>Landing Sedona, training project at school HTMLacademy <a href="https://antigon2012.github.io/326415-sedona-25/">Github</a></p>
                     <p>CV for RSSchool <a href="https://antigon2012.github.io/rsschool-cv/cv">Github</a></p>
                 </section>
                 <section>
-                    <h2>Code examples</h2>
+                    <h2 class="category-title">Code examples</h2>
                     <pre>
                         var searchHotels = document.querySelector(".form-search");
                         var modalSearch = document.querySelector(".form-container");
@@ -72,7 +73,8 @@
                           modalSearch.classList.add("form-animation");
                         });
                     </pre>
-                </section>                       
+                </section> 
+            </div>                      
         </main>
         <footer>
             <a href=""><img src="" alt=""></a>
